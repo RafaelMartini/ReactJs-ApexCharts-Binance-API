@@ -9,35 +9,35 @@ Certifique-se de ter o Node.js instalado. Você pode baixá-lo em [Node.js](http
 1. Clone este repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   clone https://github.com/seu-usuario/seu-repositorio.git
    ```
 
 2. npm install
 
 ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   clone https://github.com/seu-usuario/seu-repositorio.git
 ```
 
 3. Navegue até a pasta src para iniciar o servidor
 
 ```bash
-   git cd src
+   cd src
 ```
 
 4. Installe o Cors e Express
 
 ```bash
-   git npm install express cors
+   npm install express cors
 ```
 
-5. npm install express cors
+5. install express cors
 
 ```bash
-   git node server.js
+   node src/server.js
 ```
 
 6. Crie um novo terminal e rode o client
 
 ```bash
-   git npm start
+   npm start
 ```
