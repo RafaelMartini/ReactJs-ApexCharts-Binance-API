@@ -13,15 +13,19 @@
     "react-apexcharts": "^1.4.1",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "websocket": "^1.0.34",
+    "ws": "^8.15.1"
   },
-"scripts": {
+  "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "server": "node src/server.js"
-  }
+    "server": "node src/server.js",
+    "w3c-websocket": "node src/W3C-WebSocket.js",
+    "ws-websocket": "node src/WS-WebSocket.js"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
